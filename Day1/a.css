@@ -1,0 +1,33 @@
+body {
+    background-color: papayawhip;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color : saddlebrown;
+    text-align: center;
+}
+
+ul {
+    color: olive;
+    list-style-type: georgian;
+}
+
+ol {
+    color: olive;
+}
+
+p {
+    color: forestgreen;
+    font-size: 15px;
+    text-align: center;
+}
+
+img {
+    width : 140px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+}
