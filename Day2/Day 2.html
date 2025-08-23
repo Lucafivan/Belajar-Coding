@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Day 2 - Form</title>
+        <link rel="stylesheet" href="b.css">
+    </head>
+    <body>
+        <h1>Formulir Pendaftaran</h1>
+
+        <form action="#" method="post">
+
+            <label for="nama">Nama Lengkap: </label><br>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama">
+            <br><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email">
+            <br><br>
+
+            <label for="password">Password: </label><br>
+            <input type="password" id="password" name="password" placeholder="Masukkan Password">
+            <br><br>
+
+            <p>Jenis Kelamin: </p>
+            <input type="radio" id="laki" name="gender" value="Laki-laki">
+            <label for="laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="gender" value="Perempuan">
+            <label for="perempuan">Perempuan</label>
+            <br><br>
+
+            <p>Hobi: </p>
+            <input type="checkbox" id="music" name="hobi" value="Musik">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="olahraga" name="hobi" value="olahraga">
+            <label for="olahraga">Olahraga</label><br>
+            <input type="checkbox" id="ngoding" name="hobi" value="Ngoding">
+            <label for="ngoding">Ngoding</label>
+            <br><br>
+
+            <label for="kota">Pilih Kota:</label><br>
+            <select name="kota" id="kota">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+                <option value="bekasi">Bekasi</option>
+                <option value="surabaya">surabaya</option>
+            </select>
+            <br><br>
+
+            <label for="pesan">Pesan: </label><br>
+            <textarea name="pesan" id="pesan" rows="4" cols="30" placeholder="Tulis Pesanmu Disini"></textarea>
+            <br><br>
+
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
