@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Day 6- CRUD dengan Local Storage</title>
+        <link rel="stylesheet" href="f.css">
+    </head>
+    <body>
+        <h1>Website Sederhana</h1>
+
+        <form id="formData">
+            <input type="hidden" id="editIndex">
+            <label for="nama">Nama: </label><br>
+            <input type="text" id="nama" required><br><br>
+
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="kota">Kota: </label><br>
+            <select id="kota" required>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Surabaya">Surabaya</option>
+            </select><br><br>
+
+            <button type="submit" id="submitBtn">Tambah Data</button>
+        </form>
+
+        <h2>Daftar Peserta</h2>
+        <table id="tableData">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Kota</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <script src="f.js"></script>
+    </body>
+</html>
